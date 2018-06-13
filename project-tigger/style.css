@@ -1,0 +1,37 @@
+/* Starting with navigation styling*/
+
+* {
+    text-decoration: none;
+}
+nav {
+    width: 100%
+}
+
+.nav-bar.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.memory-of {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#head-text{
+
+}
+
+.tools li {
+    display: inline-block;
+    width: 50%;
+}
+
+
+
+/* 
+Font Options:
+font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; 
+*/
