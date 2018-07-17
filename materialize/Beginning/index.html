@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Material.io</title>
+
+</head>
+
+<body>
+    <div clas='container'>
+        <h1>Colors</h1>
+        <div class='red white-text'>Div with color class</div>
+        <div class='blue darken-2 white-text'>Div with color class</div>
+        <div class='deep-purple lighten-3 blue-text'>Div with color class</div>
+
+        <h1>Buttons</h1>
+        <button class='btn'>Read More</button>
+        <button class='btn waves-effect waves-light'>Wave</button>
+        <button class='btn btn-large waves-effect waves-light'>Wave</button>
+        <button class='btn disabled waves-effect waves-light'>Wave</button>
+        <button class='btn btn-large waves-effect waves-light red darken-3'>Wave</button>
+        <button class='btn waves-effect waves-light yellow black-text'>Wave</button>
+        <button class='btn waves-effect waves-light purple'>Wave</button>
+        <button class='btn waves-effect waves-light blue'>Wave</button>
+        <button class='btn waves-effect waves-light brown'>
+            <i class='material-icons left'>cloud</i>Wave</button>
+
+        <!-- Floating button -->
+
+        <a href="#" class="btn-floating red btn-large">
+            <i class="large material-icons">add</i>
+        </a>
+
+        <!--FIXED ACTION BUTTON-->
+
+        <div class="fixed-action-btn">
+            <a href="#" class="btn-floating red btn-large">
+                <i class="large material-icons">mode_edit</i>
+            </a>
+            <ul>
+                <li>
+                    <a href="#" class="btn-floating yellow btn-large">
+                        <i class="large material-icons">insert_chart</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="btn-floating blue btn-large">
+                        <i class="large material-icons">format_quote</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="btn-floating green btn-large">
+                        <i class="large material-icons">publish</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="btn-floating orange btn-large">
+                        <i class="large material-icons">attach_file</i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!--FLAT BUTTON-->
+
+        <a href="#" class="waves-effect waves-teal btn-flat">Button</a>
+
+        <!--Left Align-->
+        <div>
+            <h5 class="left-align">This aligns to the left</h5>
+        </div>
+        <div>
+            <h5 class="right-align">This aligns to the right</h5>
+        </div>
+        <div>
+            <h5 class="center-align">This aligns to the center</h5>
+        </div>
+
+        <!--Quick Floats-->
+        <div class="left">Left</div>
+        <div class="right">Right</div>
+
+        <!--CLEARFIX-->
+        <div class="clearfix"></div>
+
+        <!--HIDE CONTENT-->
+        <div class="hide">hidden</div>
+        <div class="hide-on-small-only">Hidden on mobile</div>
+        <div class="hide-on-med-only">Hidden on medium</div>
+        <div class="hide-on-med-and-down">Hidden med and down</div>
+        <div class="hide-on-med-and-up">Hiden on med and up</div>
+        <div class="hide-on-large-only">Hidden on large</div>
+
+        <h4 class='truncate'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+            passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+            Ipsum.
+        </h4>
+
+        <!--EFFECTS ON ANY ELEMENT-->
+        <!--Hoverable-->
+        <div class="red white-text hoverable">Hoverable Content</div>
+        <!--Pulse-->
+        <div class="blue white-text pulse">Pulse Content</div>
+        <!--Shadows-->
+        <p class="z-depth-1">depth-1 shadow</p>
+        <p class="z-depth-2 red">depth-2 shadow</p>
+        <p class="z-depth-3">depth-3 shadow</p>
+        <p class="z-depth-4">depth-4 shadow</p>
+        <p class="z-depth-5">depth-5 shadow</p>
+
+        <p class="flow-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+            passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+            Ipsum.
+        </p>
+    </div>
+
+    <div style="height:500px">
+    </div>
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.fixed-action-btn').floatingActionButton();
+        });
+    </script>
+</body>
+
+</html>
